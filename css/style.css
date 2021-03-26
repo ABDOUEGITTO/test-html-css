@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 85%;
+    height: 100vh;
+    margin: auto;
+}
+.margin-bottom{
+    margin-bottom: 60px;
+}
+.text-center{
+    text-align: center;
+}
+/*frist-test*/
+
+.frist-test{
+    background-color: #000000;
+    color: #ffffff;
+    position: relative;
+}
+.frist-test .icon {
+    padding: 20px;
+    font-size: 30px;
+}
+.frist-test .heading{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    text-align: center;
+}
+.frist-test .heading h4 ,h2{
+    margin-bottom: 10px;
+}
+.frist-test .heading h2 {
+    font-size: 30px;
+}
+.frist-test .heading .btn {
+    padding: 8px 20px;
+    background-color: dimgrey;
+    text-transform: uppercase;
+    border: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/*end of frist-test*/
+
+/*second-test*/
+.second-test .text-center{
+    margin-bottom: 20px;
+}
+.second-test .text-center h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.second-test .frist-one {
+    background-color: gray;
+    color: #ffffff;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+.second-test .center h2 {
+    margin-left: 15px;
+    font-size: 35px;
+    font-weight: bold;
+}
+.second-test .center p {
+    margin-left: 13px;
+    padding:  5px;
+    margin-bottom: 10px;
+}
+.second-test .last{
+    background-color: gray;
+    color: #ffffff;
+    padding: 15px;
+}
+.second-test .last .p-color{
+    color: rgb(202, 184, 184);
+    margin-top: 15px;
+}
+
+/* end of second-test*/
+
+/* three-test*/
+.three-test h1 {
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.three-test > .test-color{
+    display: flex;
+}
+.three-test > .test-color > p{
+    width: calc(100% / 6);
+    padding: 20px;
+    color: #ffffff;
+}
+.three-test > .test-color > p:nth-of-type(1){
+    background: red;
+}
+.three-test > .test-color > p:nth-of-type(2){
+    background: blue;
+}
+.three-test > .test-color > p:nth-of-type(3){
+    background: gray;
+}
+.three-test > .test-color > p:nth-of-type(4){
+    background:turquoise;
+}
+.three-test > .test-color > p:nth-of-type(5){
+    background: yellow;
+    color: #000000;
+}
+.three-test > .test-color > p:nth-of-type(6){
+    background: orange;
+    color: #000000;
+}
+
+/* end of three-test*/
+
+/*testo*/
+.testo .h-text{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.testo .test-1{
+    display: flex;
+}
+.testo .test-1 > .testo-1{
+    background-color: cornflowerblue;
+}
+.testo .test-1 > .testo-2{
+    border: 1px solid #000000;
+    color: black;
+    font-weight: bold;
+}
+.testo .test-1 > .testo-1 ,.testo-2{
+    width: calc(100% / 2);
+    padding: 15px;   
+    color: #ffffff;
+}
+
+.testo .test-2 {
+    display: flex;
+    margin-top: 10px;
+}
+.testo .test-2 .testo-3{
+    background-color: forestgreen;
+    color: #ffffff;
+}
+
+.testo .test-2 .testo-5 {
+   border-right: 1px solid #000000;
+}
+.testo .test-2 > .testo-4 ,.testo-5{
+    border: 1px solid #000000;
+    color: black;
+    font-weight: bold;
+    border-left: none ;
+    border-right-color:#ffffff ;
+}
+
+.testo .test-2 > .testo-3 , .testo-4 ,.testo-5 {
+    width: calc(100% / 3);
+    padding: 15px;
+}
+
+.testo .test-3 {
+    display: flex;
+    margin-top: 10px;
+}
+.testo .test-3 > .testo-6 , p {
+    width: calc(100% /4);
+    padding: 7px;
+}
+.testo .test-3 > .testo-6 {
+    background-color: red;
+    color: #ffffff;
+}
+.testo .test-3 > p {
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    font-weight: bold;
+}
+.testo .test-3 > .p-test-last{
+    border-right: 1px solid #000000;
+}
+/*end of testo*/
+
+/*images*/
+.images{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 40px;
+}
+.images .image-1 {
+    width: 32%;
+    height: 280px;
+    border: 1px solid #ffffff;
+    box-shadow: 2px 2px 5px 10px #e0d7d7;
+}
+.images .image-1 img {
+    width: 100%;
+    margin: 20px 0;
+}
+.images .image-2 {  
+    width: 32%;
+    height: 280px;
+    border: 1px solid #ffffff;
+    box-shadow: 2px 2px 5px 10px #e0d7d7;
+}
+.images .image-2 img {
+    width: 100%;
+    margin: 20px 0;
+}
+.images .image-3 { 
+    width: 32%;
+    height: 280px;
+    border: 1px solid #ffffff;
+    box-shadow: 2px 2px 5px 10px #e0d7d7;
+}
+.images .image-3 img {
+    width: 100%;
+    margin: 20px 0;
+}
+
+/*end of images*/
+
+/*two-line*/
+.two-line .text-center {
+    margin-bottom: 30px;
+}
+.two-line .div-1{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.two-line .div-1 .imge-1{
+    width: 29%;
+    height: 200px;  
+}
+
+.two-line .div-1 .imge-2{
+    width: 29%;
+    height: 200px;
+}
+.two-line .div-1 .imge-3{
+    width: 29%;
+    height: 200px;
+}
+.two-line .div-2{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.two-line .div-2 .imge-1{
+    width: 29%;
+    height: 200px;  
+}
+
+.two-line .div-2 .imge-2{
+    width: 29%;
+    height: 200px;
+}
+.two-line .div-2 .imge-3{
+    width: 29%;
+    height: 200px;
+}
+
+/*end of two-line*/
+/*schedule*/
+.schedule .text-center{
+    margin-bottom: 20px;
+}
+.tables{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.table > *{
+    padding: 10px;
+    border: 1px solid #eee;
+}
+
+.table > header,
+.table > footer{
+    background: blue;
+    color: white;
+}
+.table:nth-of-type(2) > header,
+.table:nth-of-type(2) > footer{
+    background: #000;
+}
+.table > .bul-color{
+    color: blue;
+}
+.table footer h3{
+    margin-left: 350px;
+}
+/*end of schedule*/
